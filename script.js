@@ -41,6 +41,7 @@ const addNumbers = () => {
   numbers=document.querySelectorAll("input")
   for(let i=0;i<numbers.length;i++){
      sum = sum+Number(numbers[i].value)
+     //While debugging it turned out that instead of adding numbers, strings are concatenated,to fix this the "Numbers" method was used.
   
   }
   let result = document.querySelector(".containerResult>h1")
