@@ -1,0 +1,32 @@
+.root{
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #bbdefb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.input{
+    width: 300px;
+    height: 50px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    outline: none;
+    border:2px solid #69f0ae;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    text-align: center;
+}
+.button{
+    width: 300px;
+    height: 50px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    outline: none;
+    background: #69f0ae;
+    border:2px solid #2bbd7e;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
